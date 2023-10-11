@@ -1,0 +1,42 @@
+h1{
+  font-size: 40px;
+  text-transform: capitalize;
+  text-decoration: dotted;
+}
+
+nav ul li:hover, nav ul li:focus{
+    text-decoration: wavy;
+    background-color: darkgray;
+  }
+
+nav ul li a{
+  font-size: 20px;
+  text-decoration: wavy;
+}
+
+/* nav ul li:visited{
+  background-color: blue;
+} */
+
+nav{
+    background-color:blanchedalmond;
+    text-align: right;
+}
+
+nav ul li{
+  list-style-type: none;
+  /* float: left; */
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+  border: 2px dashed darkgoldenrod;
+}
+
+a{
+  position: relative;
+}
+
+#main .div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid black;
+}
